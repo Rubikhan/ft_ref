@@ -1,6 +1,7 @@
+#FT REF
 <p align="center">
-  <h1>FT_REF</h1>
   <img width="255" height="255" src="img/logo.png">
-  <h3>A homebrew reference manual</h3>
 </p>
+###A homebrew reference manual for 42.
 
+[PDF](../blob/master/pdf/PDF.md) 
