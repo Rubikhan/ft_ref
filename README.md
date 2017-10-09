@@ -1,1 +1,2 @@
-First commit.
+![42](img/logo.png)
+
