@@ -4,4 +4,4 @@
 </p>
 ### A homebrew reference manual for 42.
 
-[PDF](./blob/master/pdf/PDF.md) 
+[PDF](pdf/PDF.md) 
