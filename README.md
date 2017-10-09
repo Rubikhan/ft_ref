@@ -5,6 +5,6 @@
 
 ### A homebrew reference manual for 42
 
-[Projects](pdf/PDF.md)
-
-[Students](STUDENTS.md) 
+1.[Projects](pdf/PDF.md)
+⋅⋅*[Libft](pdf/libft.en.pdf)
+2.[Students](STUDENTS.md) 
