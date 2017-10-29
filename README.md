@@ -10,6 +10,7 @@
 # Projects
 
 [LIBFT](pdf/libft.en.pdf)
+
 [FILLIT](pdf/fillit.en.pdf)
 
 # Rushes
@@ -19,6 +20,7 @@
 # Tools
 
 <a href="https://github.com/bvautour/aitd" target="_blank">Alone in the Dark</a>
+
 <a href="https://github.com/bvautour/42-CheckYourDorms" target="_blank">Check Your Dorms</a>
 
 # Hackathons
