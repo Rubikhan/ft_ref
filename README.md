@@ -17,6 +17,10 @@
 
 [FROZEN](pdf/frozen.en.pdf)
 
+# Dashes
+
+[FRAME MASTER](pdf/frame_master.pdf)
+
 # Tools
 
 <a href="https://github.com/bvautour/aitd" target="_blank">Alone in the Dark</a>
