@@ -8,7 +8,7 @@
 ---
 
 # Projects
-|   |   |   |
+|Name|Subject|Source|
 |:-:|:-:|:-:|
 |LIBFT|[PDF](pdf/libft.en.pdf)|[bvautour/libft](https://github.com/bvautour/libft)|
 |FILLIT| [PDF](pdf/fillit.en.pdf)|[bvautour/fillit](https://github.com/bvautour/fillit)|
@@ -16,11 +16,13 @@
 
 # Rushes
 
+|Name|Subject|Source|
 |:-:|:-:|:-:|
 |FROZEN|[PDF](pdf/frozen.en.pdf)|:octocat: Private :octocat:|
 
 # Dashes
 
+|Name|Subject|Source|
 |:-:|:-:|:-:|
 |FRAME MASTER|[PDF](pdf/frame_master.pdf)|:octocat: Private :octocat:|
 
