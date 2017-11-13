@@ -8,23 +8,23 @@
 ---
 
 # Projects
-|Name|Subject|Source|
-|:-:|:-:|:-:|
-|LIBFT|[PDF](pdf/libft.en.pdf)|[bvautour/libft](https://github.com/bvautour/libft)|
-|FILLIT| [PDF](pdf/fillit.en.pdf)|[bvautour/fillit](https://github.com/bvautour/fillit)|
-|GNL|[PDF](pdf/get_next_line.en.pdf)|:wrench: Under Construction  :hammer:|
+|Name|Subject|Source|Status
+|:-:|:-:|:-:|:-:|
+|LIBFT|[PDF](pdf/libft.en.pdf)|[bvautour/libft](https://github.com/bvautour/libft)|:heavy_check_mark:|
+|FILLIT| [PDF](pdf/fillit.en.pdf)|[bvautour/fillit](https://github.com/bvautour/fillit)|:heavy_check_mark:|
+|GNL|[PDF](pdf/get_next_line.en.pdf)|[bvautour/gnl](https://github.com/bvautour/gnl)|:wrench:|
 
 # Rushes
 
-|Name|Subject|Source|
-|:-:|:-:|:-:|
-|FROZEN|[PDF](pdf/frozen.en.pdf)|:octocat: Private :octocat:|
+|Name|Subject|Source|Status|
+|:-:|:-:|:-:|:-:|
+|FROZEN|[PDF](pdf/frozen.en.pdf)|:octocat: Private :octocat:|:thinking:|
 
 # Dashes
 
-|Name|Subject|Source|
-|:-:|:-:|:-:|
-|FRAME MASTER|[PDF](pdf/frame_master.pdf)|:octocat: Private :octocat:|
+|Name|Subject|Source|Status|
+|:-:|:-:|:-:|:-:|
+|FRAME MASTER|[PDF](pdf/frame_master.pdf)|:octocat: Private :octocat:|:thinking:|
 
 
 # Tools
