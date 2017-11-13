@@ -9,17 +9,21 @@
 
 # Projects
 
-[LIBFT](pdf/libft.en.pdf)
-
-[FILLIT](pdf/fillit.en.pdf)
+|:-:|:-:|:-:|
+|LIBFT|[PDF](pdf/libft.en.pdf)|[bvautour/libft](https://github.com/bvautour/libft)|
+|FILLIT| [PDF](pdf/fillit.en.pdf)|[bvautour/fillit](https://github.com/bvautour/fillit)|
+|GNL|[PDF](pdf/get_next_line.en.pdf)|:wrench: Under Construction  :hammer:|
 
 # Rushes
 
-[FROZEN](pdf/frozen.en.pdf)
+|:-:|:-:|:-:|
+|FROZEN|[PDF](pdf/frozen.en.pdf)|:octocat: Private :octocat:|
 
 # Dashes
 
-[FRAME MASTER](pdf/frame_master.pdf)
+|:-:|:-:|:-:|
+|FRAME MASTER|[PDF](pdf/frame_master.pdf)|:octocat: Private :octocat:|
+
 
 # Tools
 
