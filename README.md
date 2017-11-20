@@ -12,7 +12,7 @@
 |:-:|:-:|:-:|:-:|
 |LIBFT|[PDF](pdf/libft.en.pdf)|[bvautour/libft](https://github.com/bvautour/libft)|:heavy_check_mark:|
 |FILLIT| [PDF](pdf/fillit.en.pdf)|[bvautour/fillit](https://github.com/bvautour/fillit)|:heavy_check_mark:|
-|GNL|[PDF](pdf/get_next_line.en.pdf)|[bvautour/gnl](https://github.com/bvautour/gnl)|:wrench:|
+|GNL|[PDF](pdf/get_next_line.en.pdf)|[bvautour/gnl](https://github.com/bvautour/gnl)|:lock:|
 
 # Rushes
 
@@ -25,6 +25,7 @@
 |Name|Subject|Source|Status|
 |:-:|:-:|:-:|:-:|
 |FRAME MASTER|[PDF](pdf/frame_master.pdf)|:octocat: Private :octocat:|:thinking:|
+|SUMMER IN SAN FRAN|[PDF](pdf/summer_in_sanfrancisco.pdf)|:octocat: Private :octocat:|:thinking:|
 
 
 # Tools
