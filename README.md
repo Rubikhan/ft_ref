@@ -8,12 +8,13 @@
 ---
 
 # Projects
-|Name|Subject|Source|Status
-|:-:|:-:|:-:|:-:|
-|LIBFT|[PDF](pdf/libft.en.pdf)|[bvautour/libft](https://github.com/bvautour/libft)|:heavy_check_mark:|
-|FILLIT| [PDF](pdf/fillit.en.pdf)|[bvautour/fillit](https://github.com/bvautour/fillit)|:heavy_check_mark:|
-|GNL|[PDF](pdf/get_next_line.en.pdf)|[bvautour/gnl](https://github.com/bvautour/gnl)|:lock:|
-|LS|[PDF](pdf/ft_ls.en.pdf)|:octocat: repo pending :octocat:|:wrench:|
+|Name|Subject|Branch|Source|Status
+|:-:|:-:|:-:|:-:|:-:|
+|LIBFT|[PDF](pdf/libft.en.pdf)|Base|[bvautour/libft](https://github.com/bvautour/libft)|:heavy_check_mark:|
+|FILLIT| [PDF](pdf/fillit.en.pdf)|Base|[bvautour/fillit](https://github.com/bvautour/fillit)|:heavy_check_mark:|
+|GNL|[PDF](pdf/get_next_line.en.pdf)|Base|[bvautour/gnl](https://github.com/bvautour/gnl)|:heavy_check_mark:|
+|LS|[PDF](pdf/ft_ls.en.pdf)|Systems|:octocat: repo pending :octocat:|:wrench:|
+|FDF|[PDF](pdf/fdf.en.pdf)|Graphics|:octocat: repo pending :octocat:|:wrench:|
 
 # Rushes
 
