@@ -42,7 +42,7 @@
 
 # Thoughts
 
-[What I Learned from Another Developers Makefiles](thoughts/MAKEFILES.md)
+[What I Learned from Other Developers Makefiles](thoughts/makefiles/README.md)
 
 # Other References
 

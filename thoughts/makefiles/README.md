@@ -1,12 +1,14 @@
 # What I Learned from Other Developers Makefiles
 
-<pre>        :::      ::::::::    
+```
+        :::      ::::::::    
       :+:      :+:    :+:    
     +:+ +:+         +:+      
   +#+  +:+       +#+         
 +#+#+#+#+#+   +#+            
      #+#    #+#              
-    ###   ########.us   Brad Vautour     </pre>    
+    ###   ########.us   Brad Vautour     
+```    
 
 ### Introduction
 
@@ -23,7 +25,7 @@ I think it is important to note that the key to my understanding in most facets 
 * do not be afraid to admit that when you do no know something.
 * never put something in your own work that you do not fully understand.
 
-Today we are going to be using tricks I have learned  from an alum of 42, [qsto](https://github.com/qst0/), as well as the [GNU Make Man.](https://www.gnu.org/software/make/manual/html_node/index.html)
+Today we are going to be using tricks I have learned from an alum of 42, [qsto](https://github.com/qst0/), as well as the [GNU Make Man.](https://www.gnu.org/software/make/manual/html_node/index.html)
 
 Without further ado, lets jump right into it.
 
