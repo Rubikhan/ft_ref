@@ -1,12 +1,9 @@
-<pre style="background-color:none;">        :::      ::::::::    
+# What I Learned from Another Developers Makefiles
+
+<pre>        :::      ::::::::    
       :+:      :+:    :+:    
     +:+ +:+         +:+      
   +#+  +:+       +#+         
 +#+#+#+#+#+   +#+            
      #+#    #+#              
-    ###   ########.us        </pre>
-
-
-# What I Learned from Another Developers Makefiles
-
-      
+    ###   ########.us   Brad Vautour     </pre>     
