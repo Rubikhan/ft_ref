@@ -1,10 +1,10 @@
-<pre>        :::      ::::::::    
+<pre style="background-color:none;">        :::      ::::::::    
       :+:      :+:    :+:    
     +:+ +:+         +:+      
   +#+  +:+       +#+         
 +#+#+#+#+#+   +#+            
      #+#    #+#              
-    ###   ########.fr        </pre>
+    ###   ########.us        </pre>
 
 
 # What I Learned from Another Developers Makefiles
