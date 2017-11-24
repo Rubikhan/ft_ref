@@ -40,9 +40,9 @@
 
 <a href="https://github.com/bvautour/Restoracio" target="_blank">ESCP</a>
 
-# Students
+# Thoughts
 
-coming soon...
+[What I Learned from Another Developers Makefiles](thoughts/makefiles.md)
 
 # Other References
 
