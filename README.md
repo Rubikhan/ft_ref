@@ -48,4 +48,9 @@
 
 <a href="https://github.com/bvautour/42_Subjects" target="_blank">Binary Hackers</a>
 
+# Useful Links
 
+This will probably be its own file someday...
+
+[Interview practice](https://interviewing.io/)
+[Open Source Society](https://github.com/ossu/computer-science)
