@@ -25,7 +25,7 @@ I think it is important to note that the key to my understanding in most facets 
 * do not be afraid to admit that when you do no know something.
 * never put something in your own work that you do not fully understand.
 
-Today we are going to be using tricks I have learned from an alum of 42, [qsto](https://github.com/qst0/), as well as the [GNU Make Man.](https://www.gnu.org/software/make/manual/html_node/index.html)
+Today we are going to be using tricks I have learned from an alum of 42, [qst0](https://github.com/qst0/), as well as the [GNU Make Man.](https://www.gnu.org/software/make/manual/html_node/index.html)
 
 Without further ado, lets jump right into it.
 
@@ -33,40 +33,44 @@ Without further ado, lets jump right into it.
 
 ```Makefile
 NAME = App_name
-CC = gcc 									# explicit redefinition of an implicit variable
-CFLAGS = -Wall -Wextra -Werror				# explicit redefinition of an implicit variable
-MAIN = main.c								# explicit variable
-FEATURE_1 = f1_submodule1.c f1_submodule2.c # etc...
-FEATURE_2 = f2_submodule1.c f2_submodule2.c # etc...
-FILES = $(MAIN) $(FEATURE_1) $(FEATURE_2)   # organization of variables for modularity.
+CC = gcc	# explicit redefinition of an implicit variable
+CFLAGS = -Wall -Wextra -Werror	# explicit redefinition of an implicit variable
+MAIN = main.c	# explicit variable
+FEATURE_1 = f1_submodule1.c f1_submodule2.c	# etc...
+FEATURE_2 = f2_submodule1.c f2_submodule2.c	# etc...
+FILES = $(MAIN) $(FEATURE_1) $(FEATURE_2)	# organization of variables for modularity.
 
-SRC = $(addprefix src/, $(FILES))			# file function
-OBJ = $(addprefix obj/, $(FILES:.c=.o))		# file function
+SRC = $(addprefix src/, $(FILES))	# file function
+OBJ = $(addprefix obj/, $(FILES:.c=.o))	# file function
 ```
 
 Variables are pretty self explanatory. You define them in a `VARNAME = value` fashion. 
 
 There are three things of importance to note here. Implicit variables, organization, and file name functions. 
 
-### Implicit Variables
+#### Implicit Variables
 
 Variables in this context, come in two flavors, implicit and explicit.
 
 Explicit variables are like the ones in the example above. These are self-defined variables, or redefinitions of implicit variables. Read more about them [here](https://www.gnu.org/software/make/manual/html_node/Variables-Simplify.html#Variables-Simplify)
 
-Implicit variables are implied. This means these variables are predefined by make itself. If we were to call `$(CC) -c file.c` in a recipe, make would interpret that as `cc -c file.c`. Check out implicit variables [here](https://www.gnu.org/software/make/manual/html_node/Implicit-Variables.html)
+Implicit variables are implied. This means these variables are predefined by make itself. If we were to call `$(CC) -c file.c` in a recipe, make would interpret that as `cc -c file.c` if there was no explicit redefinition of which C compiler I wanted to use. Check out more about implicit variables [here](https://www.gnu.org/software/make/manual/html_node/Implicit-Variables.html)
+
+**Tip:** run `make -p` to see a list of implicits running on your version of make.
 
 There is a third type of variable, known as an Automatic Variable that we will touch on in the recipes section.
 
 ---
 
-### Organization
+#### Organization
 
 Organization is key to building something modular. Modularity is useful because it allows you to rewrite less code in the long run, and easily convey what your makefile is doing.
 
-**Tip:** Instead of trying to push all of your files under a single `FILES =` definition, break them up into features that serve a specific purpose. This particularly useful if you only want to compile a section of a library you've made for your program when only need to work with that specific set of tools (i.e. during debugging).
+**Tip:** Instead of trying to push all of your files under a single `FILES =` definition, break them up into features that serve a specific purpose. This particularly useful if you only want to compile a section of a library you've made for your program when only need to work with that specific set of tools (i.e. during debugging). This is also very useful when compiling local libraries.
 
-### File Name Functions
+---
+
+#### File Name Functions
 
 File name functions take your organization to the next level, allowing you to play around with your file names and cut down extra typing. 
 
@@ -82,7 +86,48 @@ This allows us to quickly reference the files in their source folder directly, w
 Check out more File Name Functions [here](https://www.gnu.org/software/make/manual/html_node/File-Name-Functions.html)
 **Note:** `$(FILES:.c=.o)` is pattern substition for files ending in .c. This allows for indirect reference of the same file names, but with a .o extension. See [Text Functions](https://www.gnu.org/software/make/manual/html_node/Text-Functions.html) for more info.
 
-**I'm breaking for lunch. Rules continue when I return :{P**
 ## Rules
+
+Rules and recipes walk hand in hand. A rule is comprised of three main parts.  A file target or action, a list of prerequisite files or rules to watch for changes, and the recipe to call when the target is out of sync with it's prerequisites.
+
+Here is the syntax:
+
+```Makefile
+target or action : prereqs
+	recipe...
+```
+
+#### Prerequisite Types
+
+There are two types of prereqs. Normal and Order only. 
+
+Normal prereqs work as you might expect. They are linked dependencies that execute in order when they are out of date, calling the recipe of the rule.
+
+Order only prereqs work a little bit differently. They invoke in order, but without forcing an update via dependency like a normal prereq. This is especially useful when calling for the creation of a directory that some files should exist in (for example an objects directory) but does not yet exist. This type of prereq is declared after normal prereqs and are delimited with a `|` pipe. 
+
+`target or action : normal prereq | order only prereq`
+
+Let's look at a basic example of both kinds of prereqs inspired by similar rules I picked up from [qst0](https://github.com/qst0/).
+
+```Makefile
+	# this assumes we're talking about the same variables we declared in the above section.
+obj:
+	mkdir obj
+
+obj/%.o: src/%.c | obj	# this rule states to watch for changes in c files and to ignore the obj directories timestamp changes, unless the timestamp doesnt exist at all. 
+	@echo "Building $@"
+	# your code to compile .o files in the object directory would go here.
+``` 
+
+Theres a few weird symbols that appear in the above example which we'll go more in depth with in the next section. 
+I will still run down there meaning here briefly 
+
+the `%` is a wildcard similar to the asterisk glob pattern in shell.
+
+the `@` before the echo silences the line from being put to the stdout.
+
+`$@` is an Automatic Variable
+
+And thats it for rules for now! Onto the real meat and potatoes. Recipies!
 
 ## Recipes
