@@ -83,7 +83,8 @@ OBJ = $(addprefix obj/, $(FILES:.c=.o))
 ```
 This allows us to quickly reference the files in their source folder directly, while also indirectly referencing the files by their name for use with .o files.
 
-Check out more File Name Functions [here](https://www.gnu.org/software/make/manual/html_node/File-Name-Functions.html)
+Check out more File Name Functions [here](https://www.gnu.org/software/make/manual/html_node/File-Name-Functions.html).
+
 **Note:** `$(FILES:.c=.o)` is pattern substition for files ending in .c. This allows for indirect reference of the same file names, but with a .o extension. See [Text Functions](https://www.gnu.org/software/make/manual/html_node/Text-Functions.html) for more info.
 
 ## Rules
@@ -128,6 +129,46 @@ the `@` before the echo silences the line from being put to the stdout.
 
 `$@` is an Automatic Variable
 
-And thats it for rules for now! Onto the real meat and potatoes. Recipies!
+And thats it for rules for now! Onto the real meat and potatoes. Recipes!
 
 ## Recipes
+
+Recipes are a pretty big topic to cover. Heres some of the stuff I've found to be the most important.
+
+#### Options
+
+These are the options I most frequently compile with and I consider to be an important part of any makefile. We'll see these options put into practice in the [Putting it All Together](./#piat) section below.
+
+C Options:
+
+**-c:** compile without linking. ultimately used to convert source files to .o
+
+**-o:** outfile.
+
+**-g:** debugging info for use with lldb, gdb, etc.
+
+**-llibrary:** will create a .a file replacing the preceding word after `-l` with lib<name>.a. ex: `-lft = libft.a`
+
+**-Ldir:** directories to search for `-llibrary`
+
+**-Idir:** directory to search for includes.
+
+**-Wall:** enable all warnings about constructions. This will often catch little mistakes in your code before you do.
+
+**-Wextra:** adds additional warnings that are not covered by `-Wall`.
+
+**-Werror:** converts all warnings to errors.
+
+--- 
+
+Make Options:
+
+**-C:** change directory. usually used like `$(MAKE) -C directoryname/ rule`
+
+#### The $(MAKE) Variable
+
+Often used recursively, the $(MAKE) variable is called in conjunction with the -C flag to target a directory that has a makefile inside. These make calls are often referred to as submakes.
+
+One last section for do for tomorrow!
+
+## Putting it all Together
