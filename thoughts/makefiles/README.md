@@ -169,6 +169,8 @@ Make Options:
 
 Often used recursively, the $(MAKE) variable is called in conjunction with the -C flag to target a directory that has a makefile inside. These make calls are often referred to as submakes.
 
-One last section for do for tomorrow!
 
 ## Putting it all Together
+
+I'm currently working on cleaning up my makefiles to reflect the advice i've given here. Once I'm done with that, I'll post a link to a current full example of my makefile!
+Thanks for reading! 
