@@ -16,7 +16,11 @@
 |FDF|[PDF](pdf/fdf.en.pdf)|Graphics|[bvautour/fdf](https://github.com/bvautour/fdf)|:wrench:|
 |DOCKER|[PDF](pdf/docker.en.pdf)|Systems|[bvautour/docker](https://github.com/bvautour/docker)|:wrench:|
 |LS|[PDF](pdf/ft_ls.en.pdf)|Systems|:octocat: repo pending :octocat:|:wrench:|
-
+|MINISHELL|[PDF](pdf/minishell.en.pdf)|Systems|:octocat: repo pending :octocat:|:wrench:|
+|SELECT|[PDF](pdf/ft_select.en.pdf)|Systems|:octocat: repo pending :octocat:|:wrench:|
+|21sh|[PDF](pdf/21sh.en.pdf)|Systems|:octocat: repo pending :octocat:|:wrench:|
+|TASKMASTER|[PDF](pdf/taskmaster.en.pdf)|Systems|:octocat: repo pending :octocat:|:wrench:|
+|42sh|[PDF](pdf/42sh.en.pdf)|Systems|:octocat: repo pending :octocat:|:wrench:|
 
 # Rushes
 
