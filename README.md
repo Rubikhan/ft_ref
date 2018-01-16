@@ -26,6 +26,7 @@
 
 |Name|Subject|Source|Status|
 |:-:|:-:|:-:|:-:|
+|NUMPY|[PDF](pdf/numpy.en.pdf)|[bvautour/numpy](https://github.com/bvautour/numpy)|:heavy_check_mark:|
 |FROZEN|[PDF](pdf/frozen.en.pdf)|:octocat: Private :octocat:|:thinking:|
 
 # Dashes
