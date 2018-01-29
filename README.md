@@ -21,13 +21,15 @@
 |21sh|[PDF](pdf/21sh.en.pdf)|Systems|:octocat: repo pending :octocat:|:wrench:|
 |TASKMASTER|[PDF](pdf/taskmaster.en.pdf)|Systems|:octocat: repo pending :octocat:|:wrench:|
 |42sh|[PDF](pdf/42sh.en.pdf)|Systems|:octocat: repo pending :octocat:|:wrench:|
+|MALLOC|[PDF](pdf/malloc.en.pdf)|Systems|:octocat: repo pending :octocat:|:wrench:|
+|NM_OTOOL|[PDF](pdf/nm_otool.en.pdf)|Systems|:octocat: repo pending :octocat:|:wrench:|
 
 # Rushes
 
 |Name|Subject|Source|Status|
 |:-:|:-:|:-:|:-:|
 |NUMPY|[PDF](pdf/numpy.en.pdf)|[bvautour/numpy](https://github.com/bvautour/numpy)|:heavy_check_mark:|
-|TAR|[PDF](pdf/ft_tar.en.pdf)|:octocat: Private :octocat:|:thinking:|
+|TAR|[PDF](pdf/ft_tar.pdf)|:octocat: Private :octocat:|:thinking:|
 |FROZEN|[PDF](pdf/frozen.en.pdf)|:octocat: Private :octocat:|:thinking:|
 
 # Dashes
