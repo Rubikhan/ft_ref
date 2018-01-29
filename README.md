@@ -38,6 +38,7 @@
 |:-:|:-:|:-:|:-:|
 |FRAME MASTER|[PDF](pdf/frame_master.pdf)|:octocat: Private :octocat:|:thinking:|
 |SUMMER IN SAN FRAN|[PDF](pdf/summer_in_sanfrancisco.pdf)|:octocat: Private :octocat:|:thinking:|
+|LATIN|[PDF](pdf/ft_latin.en.pdf)|:octocat: Private :octocat:|:thinking:|
 
 
 # Tools
