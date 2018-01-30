@@ -14,7 +14,6 @@
 |FILLIT| [PDF](pdf/fillit.en.pdf)|Base|[bvautour/fillit](https://github.com/bvautour/fillit)|:heavy_check_mark:|
 |GNL|[PDF](pdf/get_next_line.en.pdf)|Base|[bvautour/gnl](https://github.com/bvautour/gnl)|:heavy_check_mark:|
 |FDF|[PDF](pdf/fdf.en.pdf)|Graphics|[bvautour/fdf](https://github.com/bvautour/fdf)|:heavy_check_mark:|
-|DOCKER|[PDF](pdf/docker.en.pdf)|Systems|[bvautour/docker](https://github.com/bvautour/docker)|:wrench:|
 |LS|[PDF](pdf/ft_ls.en.pdf)|Systems|[bvautour/ls](https://github.com/bvautour/ls)|:wrench:|
 |MINISHELL|[PDF](pdf/minishell.en.pdf)|Systems|:octocat: repo pending :octocat:|:wrench:|
 |SELECT|[PDF](pdf/ft_select.en.pdf)|Systems|:octocat: repo pending :octocat:|:wrench:|
@@ -23,6 +22,8 @@
 |42sh|[PDF](pdf/42sh.en.pdf)|Systems|:octocat: repo pending :octocat:|:wrench:|
 |MALLOC|[PDF](pdf/malloc.en.pdf)|Systems|:octocat: repo pending :octocat:|:wrench:|
 |NM_OTOOL|[PDF](pdf/nm_otool.en.pdf)|Systems|:octocat: repo pending :octocat:|:wrench:|
+|INIT|[PDF](pdf/init.en.pdf)|DevOps|:octocat: repo pending :octocat:|:wrench:|
+|DOCKER|[PDF](pdf/docker.en.pdf)|DevOps|[bvautour/docker](https://github.com/bvautour/docker)|:wrench:|
 
 # Rushes
 
