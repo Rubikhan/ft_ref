@@ -10,10 +10,10 @@
 # Projects
 |Name|Subject|Branch|Source|Status
 |:-:|:-:|:-:|:-:|:-:|
-|LIBFT|[PDF](pdf/libft.en.pdf)|Base|[Rubikhan/libft](https://github.com/Rubikhan/42_Lib_Ft)|:heavy_check_mark:|
+|LIBFT|[PDF](pdf/libft.en.pdf)|Base|[Rubikhan/42_Lib_Ft](https://github.com/Rubikhan/42_Lib_Ft)|:heavy_check_mark:|
 |FILLIT| [PDF](pdf/fillit.en.pdf)|Base|[Rubikhan/fillit](https://github.com/Rubikhan/fillit)|:heavy_check_mark:|
-|GNL|[PDF](pdf/get_next_line.en.pdf)|Base|[Rubikhan/gnl](https://github.com/Rubikhan/Get_NextLine)|:heavy_check_mark:|
-|FDF|[PDF](pdf/fdf.en.pdf)|Graphics|[Rubikhan/fdf](https://github.com/Rubikhan/wireframe)|:heavy_check_mark:|
+|GNL|[PDF](pdf/get_next_line.en.pdf)|Base|[Rubikhan/Get_NextLine](https://github.com/Rubikhan/Get_NextLine)|:heavy_check_mark:|
+|FDF|[PDF](pdf/fdf.en.pdf)|Graphics|[Rubikhan/wireframe](https://github.com/Rubikhan/wireframe)|:heavy_check_mark:|
 |LS|[PDF](pdf/ft_ls.en.pdf)|Systems|[Rubikhan/ls](https://github.com/Rubikhan/ls)|:wrench:|
 |MINISHELL|[PDF](pdf/minishell.en.pdf)|Systems|:octocat: repo pending :octocat:|:wrench:|
 |SELECT|[PDF](pdf/ft_select.en.pdf)|Systems|:octocat: repo pending :octocat:|:wrench:|
